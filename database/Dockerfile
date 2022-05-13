@@ -1,0 +1,6 @@
+FROM postgres:latest
+ENV POSTGRES_USER 'test'
+ENV POSTGRES_PASSWORD 'password'
+ENV POSTGRES_HOST 'postgres'
+ENV POSTGRES_PORT 5432
+ENV POSTGRES_DB 'example'
